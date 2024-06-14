@@ -1,0 +1,67 @@
+.post{
+    background: var(--gray-800);
+    border-radius:8px;
+    padding: 2rem;
+}
+
+.author{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.author img{
+    width: 6rem;
+    height: 6rem;
+    border-radius: 8px;
+    border: 4px solid var(--gray-800);
+    outline: 2px solid var( --green-500);  
+    background-size: cover;
+}
+
+.authorInfo strong{
+    display: block;
+    line-height:1.6;
+    color: var(--gray-100);
+}
+
+.authorInfo span{
+    display: block;
+    line-height:1.6;
+    color: var(--gray-400);
+    font-size: 0.875rem;
+}
+
+.content{
+    line-height:1.6;
+    color: var(--gray-300);
+    margin-top: 1.5rem;
+    margin-bottom: 15px;
+}
+
+.content p{
+    margin-top: 0.10rem;
+    font-size: 0.875rem;
+}
+
+.content a{
+    font-weight: bold;
+    color: var(--green-500);
+    text-decoration: none;
+}
+.content a:hover{
+color: var(--gray-400);
+}
+
+
+.commentsForm{
+    border-top: 2px solid var(--gray-400);
+    height: 40px;
+    display: flex;
+    align-items: end;
+}
+
+.vc{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 6rem;
+}

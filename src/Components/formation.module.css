@@ -1,0 +1,32 @@
+.Format{
+    margin-top: 1.5rem;
+    gap: 1rem;
+    display: flex;
+    border-top: 2px;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.Format img{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 8px;
+    margin-right: 1.2rem;
+    margin-left: 2rem;
+}
+.commentsContent2{
+    background: var(--gray-700);
+    border-radius: 8px;
+    padding: 1rem;
+    margin-top: 0.2rem;
+    width: 300px;
+    
+}
+.commentsContent2 p{
+    margin-top: 1rem;
+}
+
+.cardFormat{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
